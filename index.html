@@ -1032,63 +1032,209 @@
           desc_en: "Used Terraform to declaratively manage and automate cloud and on-premise resources.",
         },
 
+        // =====================
         // SecOps
+        // =====================
+
         {
-          name: "Wazuh (XDR/SIEM)",
+          name: "Greenbone GVM",
+          category: "secops",
+          startYear: 2023,
+          usage: 100,
+          desc_fr: "Plateforme de gestion de vulnérabilités utilisée pour les scans et la remédiation.",
+          desc_en: "Vulnerability management platform used for scanning and remediation."
+        },
+        {
+          name: "Nmap",
+          category: "secops",
+          startYear: 2016,
+          usage: 100,
+          desc_fr: "Scanner réseau avancé pour la découverte de services, ports et topologies réseau.",
+          desc_en: "Advanced network scanner for service discovery, ports and network topology mapping."
+        },
+        {
+          name: "Wireshark",
+          category: "secops",
+          startYear: 2016,
+          usage: 100,
+          desc_fr: "Analyseur de paquets réseau pour inspection approfondie du trafic.",
+          desc_en: "Network packet analyzer for deep traffic inspection."
+        },
+        {
+          name: "tcpdump",
+          category: "secops",
+          startYear: 2018,
+          usage: 100,
+          desc_fr: "Capture et analyse de trafic réseau en ligne de commande.",
+          desc_en: "Command-line network traffic capture and analysis tool."
+        },
+        {
+          name: "Hydra",
+          category: "secops",
+          startYear: 2021,
+          usage: 70,
+          desc_fr: "Outil de brute-force pour tests d'authentification multi-services.",
+          desc_en: "Brute-force tool for multi-service authentication testing."
+        },
+        {
+          name: "John the Ripper",
+          category: "secops",
+          startYear: 2021,
+          usage: 70,
+          desc_fr: "Outil de cracking de mots de passe et d'audit de hash.",
+          desc_en: "Password cracking and hash auditing tool."
+        },
+        {
+          name: "Hashcat",
+          category: "secops",
+          startYear: 2021,
+          usage: 70,
+          desc_fr: "Cracking de mots de passe accéléré GPU pour audits de sécurité.",
+          desc_en: "GPU-accelerated password cracking for security auditing."
+        },
+        {
+          name: "Aircrack-ng",
+          category: "secops",
+          startYear: 2018,
+          usage: 20,
+          desc_fr: "Suite d'audit de sécurité Wi-Fi pour analyse et tests d'intrusion.",
+          desc_en: "Wi-Fi security auditing suite for analysis and penetration testing."
+        },
+        {
+          name: "OpenVAS",
+          category: "secops",
+          startYear: 2023,
+          usage: 90,
+          desc_fr: "Scanner de vulnérabilités réseau pour audits de sécurité.",
+          desc_en: "Network vulnerability scanner for security audits."
+        },
+        {
+          name: "Burp Suite",
+          category: "secops",
+          startYear: 2018,
+          usage: 50,
+          desc_fr: "Suite de test de sécurité applicative web (pentesting) utilisée en profondeur.",
+          desc_en: "Web application security testing suite used extensively for pentesting."
+        },
+        {
+          name: "Charmeleon Honeypot",
+          category: "secops",
+          startYear: 2022,
+          usage: 30,
+          desc_fr: "Outil de sécurité utilisé pour des analyses et tests spécialisés.",
+          desc_en: "Security tool used for specialized analysis and testing."
+        },
+        {
+          name: "T-Pot Honeypot",
+          category: "secops",
+          startYear: 2022,
+          usage: 70,
+          desc_fr: "Plateforme honeypot multi-services pour la détection et l'analyse d'attaques.",
+          desc_en: "Multi-service honeypot platform for attack detection and analysis."
+        },
+        {
+          name: "MISP",
           category: "secops",
           startYear: 2022,
           usage: 80,
-          desc_fr:
-            "Déployé Wazuh comme solution XDR/SIEM pour la détection de menaces et la corrélation d'événements en temps réel.",
-          desc_en:
-            "Deployed Wazuh as an XDR/SIEM solution for threat detection and real-time security event correlation.",
+          desc_fr: "Plateforme de threat intelligence pour partage et corrélation d'indicateurs.",
+          desc_en: "Threat intelligence platform for sharing and correlating indicators."
         },
         {
-          name: "Snort (IPS / IDS)",
+          name: "OWASP ZAP",
           category: "secops",
-          startYear: 2015,
+          startYear: 2022,
           usage: 100,
-          desc_fr:
-            "Mis en place Snort comme IPS/IDS pour analyser le trafic réseau en temps réel et bloquer les attaques.",
-          desc_en: "Set up Snort as IPS/IDS to analyze network traffic in real-time and block attacks.",
+          desc_fr: "Scanner de sécurité applicatif web pour tests automatisés et manuels.",
+          desc_en: "Web application security scanner for automated and manual testing."
         },
         {
-          name: "pfSense",
+          name: "Falco",
           category: "secops",
-          startYear: 2015,
+          startYear: 2025,
           usage: 100,
-          desc_fr:
-            "Déployé et configuré pfSense comme pare-feu principal avec VPN, DNS filtering et contrôle avancé du trafic.",
-          desc_en:
-            "Deployed and configured pfSense as the primary firewall with VPN, DNS filtering and advanced traffic control.",
+          desc_fr: "Runtime security pour conteneurs et environnements cloud-native.",
+          desc_en: "Runtime security for containers and cloud-native environments."
         },
         {
-          name: "OpenVPN & WireGuard",
+          name: "Suricata",
+          category: "secops",
+          startYear: 2021,
+          usage: 30,
+          desc_fr: "IDS/IPS haute performance pour analyse du trafic réseau.",
+          desc_en: "High-performance IDS/IPS for network traffic analysis."
+        },
+        {
+          name: "ClamAV",
           category: "secops",
           startYear: 2016,
-          usage: 25,
-          desc_fr:
-            "Mis en œuvre OpenVPN et WireGuard pour établir des connexions VPN chiffrées et sécurisées entre réseaux.",
-          desc_en:
-            "Implemented OpenVPN and WireGuard to establish encrypted, trusted VPN connections between networks.",
+          usage: 100,
+          desc_fr: "Moteur antivirus open-source pour analyse de fichiers et emails.",
+          desc_en: "Open-source antivirus engine for file and email scanning."
         },
         {
-          name: "Pi-hole (DNS)",
+          name: "VirusTotal",
+          category: "secops",
+          startYear: 2023,
+          usage: 80,
+          desc_fr: "Plateforme d'analyse de fichiers et URLs pour détection de menaces.",
+          desc_en: "File and URL analysis platform for threat detection."
+        },
+        {
+          name: "Fail2Ban",
+          category: "secops",
+          startYear: 2016,
+          usage: 100,
+          desc_fr: "Protection contre brute-force via bannissement automatique IP.",
+          desc_en: "Brute-force protection via automatic IP banning."
+        },
+        {
+          name: "iptables",
+          category: "secops",
+          startYear: 2014,
+          usage: 20,
+          desc_fr: "Filtrage réseau Linux bas niveau pour contrôle du trafic.",
+          desc_en: "Low-level Linux network filtering for traffic control."
+        },
+        {
+          name: "nftables",
           category: "secops",
           startYear: 2018,
-          usage: 40,
-          desc_fr:
-            "Déployé Pi-hole pour le filtrage DNS au niveau réseau, bloquant les domaines malveillants et publicitaires.",
-          desc_en: "Deployed Pi-hole for network-level DNS filtering, blocking malicious and advertising domains.",
+          usage: 100,
+          desc_fr: "Successeur moderne d'iptables pour filtrage réseau.",
+          desc_en: "Modern successor to iptables for network filtering."
         },
         {
-          name: "Cloudflare",
+          name: "Trivy",
           category: "secops",
-          startYear: 2015,
+          startYear: 2023,
+          usage: 90,
+          desc_fr: "Scanner de vulnérabilités pour conteneurs et dépendances.",
+          desc_en: "Vulnerability scanner for containers and dependencies."
+        },
+        {
+          name: "Keycloak",
+          category: "secops",
+          startYear: 2024,
+          usage: 30,
+          desc_fr: "Solution IAM pour authentification et gestion des accès.",
+          desc_en: "IAM solution for authentication and access management."
+        },
+        {
+          name: "OpenLDAP",
+          category: "secops",
+          startYear: 2024,
+          usage: 30,
+          desc_fr: "Service d'annuaire LDAP pour gestion des identités.",
+          desc_en: "LDAP directory service for identity management."
+        },
+        {
+          name: "auditd",
+          category: "secops",
+          startYear: 2018,
           usage: 100,
-          desc_fr:
-            "Utilisé Cloudflare pour la sécurité edge, la protection DDoS, le WAF et l'optimisation des performances DNS.",
-          desc_en: "Used Cloudflare for edge security, DDoS protection, WAF and DNS performance optimization.",
+          desc_fr: "Système d'audit Linux pour traçabilité des actions système.",
+          desc_en: "Linux auditing system for system activity traceability."
         },
 
         // DevOps
